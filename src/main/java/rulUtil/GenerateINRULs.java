@@ -181,6 +181,14 @@ public class GenerateINRULs {
     else if (flag == 4) return 4;
     else if (flag == 11) return 13;
     else if (flag == 13) return 11;
+    else if (flag == 21) return 23;
+    else if (flag == 23) return 21;
+    else if (flag == 22) return 42;
+    else if (flag == 42) return 22;
+    else if (flag == 32) return 52;
+    else if (flag == 52) return 32;
+    else if (flag == 62) return 62;
+    else if (flag == 72) return 72;
     else throw new RuntimeException("Flag " + flag + " not supported.");
   }
 }
